@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Aplica el fondo de color al cuerpo */
+}
+
+.home-container {
+  width: 100%;
+  min-height: 100vh; /* Usa min-height en lugar de height */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.contenidoHome {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white; /* Cambia el color del texto según tu diseño */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+
+.contenidoHome h2 {
+  font-size: 2rem;
+  margin-top: 10vh;
+}
+
+.ContenedorCanchas {
+  width: 100%;
+  max-width: 1200px; /* Ancho máximo para evitar que las canchas se extiendan demasiado */
+  margin: 0 auto; /* Centrar el contenedor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribuir los elementos uniformemente */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .ContenedorCanchas {
+    justify-content: center; /* Centrar los elementos en pantallas más pequeñas */
+  }
+}

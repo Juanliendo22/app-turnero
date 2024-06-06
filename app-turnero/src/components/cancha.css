@@ -1,0 +1,36 @@
+.cancha-card {
+  width: 300px; /* ajusta el ancho según sea necesario */
+  height: auto; /* ahora la altura se ajustará automáticamente al contenido */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: aliceblue;
+}
+
+.cancha-img {
+  width: 100%;
+  object-fit: cover; /* para mantener la relación de aspecto */
+}
+
+.cancha-info {
+  padding: 20px;
+}
+
+.cancha-title {
+  margin-top: 0;
+}
+
+.cancha-description {
+  color: #666;
+}
+
+.btn {
+  padding: 1.5vh;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  border: none;
+}
